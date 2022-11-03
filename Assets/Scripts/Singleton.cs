@@ -26,7 +26,7 @@ public abstract class Singleton<T> : MonoBehaviour where T : Component
         }
     }
 
-    void Awake()
+    protected virtual void Awake()
     {
         if (!instance)
         {

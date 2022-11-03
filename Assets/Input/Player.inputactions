@@ -2,7 +2,7 @@
     "name": "Player",
     "maps": [
         {
-            "name": "Player",
+            "name": "Actions",
             "id": "0fba9bc2-49a9-4527-8add-c5631ec6378b",
             "actions": [
                 {
@@ -27,6 +27,15 @@
                     "name": "Fire",
                     "type": "Button",
                     "id": "79567991-cadb-4357-ba9b-fb788d814746",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Escape",
+                    "type": "Button",
+                    "id": "7e263600-d048-4d3d-9cb8-740dce1fd053",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -251,6 +260,17 @@
                     "processors": "",
                     "groups": "XR",
                     "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "99e147f8-3136-4f78-b84c-9cc5f6257a83",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Escape",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
